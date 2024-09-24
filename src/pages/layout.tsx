@@ -15,7 +15,6 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
   const location = useLocation();
   const data: Company = companyData;
 
-  // Define las transiciones
   const transitions = useTransition(location.pathname, {
     from: { opacity: 0, transform: "translateY(20px)" },
     enter: { opacity: 1, transform: "translateY(0)" },
@@ -23,7 +22,7 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
   });
 
   return (
-    <>
+    <div className="bg-light">
       <div className={styles.header}>
         <img className={styles.logoImage} src={images.logo} alt="" />
         <div className={styles.navWrapper}>
@@ -31,9 +30,9 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
         </div>
       </div>
       {transitions((style, item) => (
-        <animated.main style={style}>{children}</animated.main>
+        <animated.main style={style} className={styles.content}>{children}</animated.main>
       ))}
-    </>
+    </div>
   );
 };
 
@@ -45,4 +44,5 @@ const styles = {
   header: "flex",
   logoImage: "w-72 sm:w-[500px]",
   navWrapper: "w-full sm:w-full",
+  content: "p-4 sm:p-8"
 };

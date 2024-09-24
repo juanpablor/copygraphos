@@ -1,5 +1,410 @@
 {
-    "companyName": "Copygraphos",
-    "address": "",
-    "menu": [ "inicio", "servicios", "productos", "quienesSomos"]
+  "companyName": "Copygraphos",
+  "address": "",
+  "menu": ["inicio", "servicios", "productos", "quienesSomos"],
+  "homePage": {
+    "title": "title",
+    "copy_1": "copy_1"
+  },
+  "servicesPage": [
+    {
+      "title": "Alquiler multifuncionales",
+      "image": "alquiler",
+      "description": [
+        {
+          "title": "Alquiler de Multifuncionales para Uso Empresarial",
+          "description": "En el mundo empresarial moderno, la eficiencia y la versatilidad son clave. Nuestro servicio de alquiler de multifuncionales para uso empresarial ofrece una solución integral para tus necesidades de oficina. Ya sea que necesites copias, impresiones o escaneos, nuestros equipos están diseñados para cumplir con todos tus requisitos."
+        },
+        {
+          "title": "Funciones Disponibles",
+          "description": "Nuestros multifuncionales no solo son capaces de realizar copias, impresiones y escaneos, sino que también ofrecen calidad y rapidez. Disponemos de equipos tanto monocromáticos, ideales para impresiones en blanco y negro, como full color, perfectos para documentos que requieren un acabado más profesional."
+        },
+        {
+          "title": "Diferentes Paquetes de Trabajo",
+          "description": "Para adaptarnos a las distintas necesidades de tu empresa, ofrecemos múltiples paquetes de trabajo. Ya sea que tu negocio sea pequeño o grande, tenemos una opción que se ajustará perfectamente a tus requerimientos, asegurando así una optimización de recursos y costos."
+        }
+      ]
+    },
+    {
+      "title": "Mantenimientos multifuncionales",
+      "image": "funcionales",
+      "description": [
+        {
+          "title": "Servicios Preventivos y Correctivos",
+          "description": "Realizamos mantenimientos tanto preventivos como correctivos a sus equipos en su sitio de trabajo. Nuestro objetivo es asegurar el óptimo funcionamiento y la durabilidad de sus dispositivos."
+        },
+        {
+          "title": "Contratos a su Medida",
+          "description": "Ofrecemos contratos de mantenimiento que incluyen opciones con cubrimiento de repuestos o sin ellos, adaptándonos a las necesidades particulares de cada cliente. Este enfoque personalizado garantiza un servicio eficiente y confiable."
+        },
+        {
+          "title": "Garantía y Experiencia",
+          "description": "Nuestros servicios vienen con garantía, lo que reafirma nuestro compromiso con la calidad del trabajo realizado. Contamos con gran experiencia en el campo, lo que nos permite brindar un servicio integral y profesional."
+        }
+      ]
+    }
+  ],
+  "productsPage": {
+    "printers": {
+      "bn": [
+        {
+          "title": "MP 301",
+          "image": "mp301",
+          "description": [
+            {
+              "title": "Introducción a la Ricoh MP301",
+              "description": "La Ricoh MP301 es una máquina de tamaño pequeño que ofrece una solución eficiente para tus necesidades de impresión y copiado. Este dispositivo tiene una capacidad de 30 copias o impresiones por minuto, lo que la convierte en una opción ideal para oficinas con un volumen medio de trabajo."
+            },
+            {
+              "title": "Funciones Principales",
+              "description": "La Ricoh MP301 no solo admite tamaños de papel carta y oficio, sino que también permite realizar impresiones y copias por ambos lados, ahorrando tiempo y recursos. Además, incluye un escáner de alta calidad, lo que añade versatilidad a sus funciones."
+            },
+            {
+              "title": "Especificaciones Adicionales",
+              "description": "Disponemos de la Ricoh MP301 en una versión equipada con dos bandejas de papel, lo cual facilita la gestión de diferentes tipos de trabajos de impresión. Con estas características, esta máquina pequeña se convierte en una herramienta indispensable para mejorar la eficiencia en la oficina."
+            }
+          ]
+        },
+        {
+          "title": "SP 5210",
+          "image": "sp5210",
+          "description": [
+            {
+              "title": "Velocidad y Eficiencia",
+              "description": "El Ricoh SP 5210 destaca por su capacidad de procesar hasta 50 páginas por minuto, lo que lo convierte en una opción ideal para oficinas con alto volumen de trabajo. Gracias a esta velocidad, se pueden completar tareas rápidamente."
+            },
+            {
+              "title": "Capacidades Multifuncionales",
+              "description": "Este equipo no solo funciona como impresora, sino también como copiadora y escáner, ofreciendo una solución integral para diversas necesidades documentales. La impresión es en modo láser, garantizando una calidad de imagen superior tanto en tamaño carta como oficio."
+            },
+            {
+              "title": "Flexibilidad de Configuración",
+              "description": "La impresora Ricoh SP 5210 permite la configuración de hasta tres bandejas para papel, facilitando el manejo de diferentes tipos y tamaños de hojas sin interrupciones. Además, su conexión en red la hace ideal para entornos colaborativos, permitiendo a múltiples usuarios acceder a sus funciones."
+            }
+          ]
+        },
+        {
+          "title": "mp501",
+          "image": "mp501",
+          "description": [
+            {
+              "title": "Funcionalidades de la Ricoh MP 501",
+              "description": "La Ricoh MP 501 es una máquina multifuncional ideal para oficinas. Este dispositivo maneja funciones de copiadora, impresora y escáner, proporcionando una solución integral para tus necesidades diarias de documentación."
+            },
+            {
+              "title": "Panel Inteligente",
+              "description": "Equipada con un panel inteligente, la Ricoh MP 501 es intuitiva y fácil de usar. Este panel facilita la gestión de tareas, optimizando el flujo de trabajo en tu oficina."
+            },
+            {
+              "title": "Velocidad y Capacidad de Impresión",
+              "description": "Con una velocidad de impresión de hasta 50 copias por minuto, esta máquina asegura una alta productividad. Además, soporta hasta tres bandejas de papel y maneja tamaños de papel carta y oficio, adaptándose a diversas necesidades de impresión."
+            },
+            {
+              "description": "En resumen, la Ricoh MP 501 es una excelente opción para cualquier entorno de oficina que requiera un equipo confiable y versátil."
+            }
+          ]
+        },
+        {
+          "title": "SERIE 4 B & N PARA TAMAÑO A3",
+          "image": "serie4_bn_a3",
+          "description": [
+            {
+              "title": "Rendimiento Óptimo",
+              "description": "Las impresoras de la serie Ricoh 4 se destacan por su alto rendimiento, con velocidades que van desde 25 hasta 50 copias por minuto. Este rango de capacidades asegura que haya una opción adecuada para cada tipo de oficina, grande o pequeña."
+            },
+            {
+              "title": "Funciones Multifuncionales",
+              "description": "Más que simples impresoras, la serie Ricoh 4 ofrece configuraciones avanzadas que incluyen funciones de copiadora y escáner. Con una resolución láser superior, puede estar seguro de que cada documento se verá nítido y profesional."
+            },
+            {
+              "title": "Flexibilidad en el Manejo de Papel",
+              "description": "Gracias a sus cuatro bandejas integradas, estas impresoras pueden manejar una variedad de tamaños de papel, desde media carta hasta doble carta. Esta flexibilidad las hace ideales para oficinas que necesitan adaptarse a diferentes tipos de trabajos de impresión."
+            }
+          ]
+        },
+        {
+          "title": "SERIE 5 B & N",
+          "image": "serie5_bn",
+          "description": [
+            {
+              "title": "Velocidad y Eficiencia",
+              "description": "Las Ricoh Series 5 permiten manejar una velocidad de impresión de 25 a 50 copias por minuto, satisfaciendo diversas necesidades empresariales. Esta gama asegura el rendimiento y la rapidez que usted requiere."
+            },
+            {
+              "title": "Funciones Integradas",
+              "description": "Además de su función de impresora, las Ricoh Series 5 también actúan como copiadoras y escáneres láser, ofreciendo una alta resolución. Esta integración de funciones contribuye a reducir la necesidad de múltiples dispositivos en su oficina."
+            },
+            {
+              "title": "Capacidad de Papel y Flexibilidad",
+              "description": "Cada máquina viene equipada con cuatro bandejas, lo que brinda la flexibilidad de manejar papeles desde tamaño media carta hasta doble carta. Esta característica es fundamental para empresas que manejan diversos formatos y tamaños de documentos."
+            },
+            {
+              "title": "Panel Inteligente y Conectividad",
+              "description": "El panel inteligente de las Ricoh Series 5 facilita la operación diaria, ofreciendo una interfaz intuitiva. Además, su versatilidad en redes asegura una integración sencilla con su infraestructura existente."
+            }
+          ]
+        }
+      ],
+      "color": [
+        {
+          "title": "RICOH MP C401",
+          "image": "mp_c401",
+          "description": [
+            {
+              "title": "Características Principales",
+              "description": "La Ricoh MP C401 multifuncional full color es una solución ideal para entornos de oficina que requieren versatilidad y rendimiento. Este dispositivo es capaz de trabajar con tamaños de papel carta y oficio, proporcionando distintas opciones de impresión en variados gramajes."
+            },
+            {
+              "title": "Funcionalidades Adicionales",
+              "description": "Además de su capacidad de impresión, la Ricoh MP C401 también cuenta con un escáner y funciones de copiado full color. Estas características hacen que sea una herramienta completa para cualquier oficina, garantizando alta calidad en cada tarea realizada."
+            },
+            {
+              "title": "Velocidad y Eficiencia",
+              "description": "La Ricoh MP C401 se destaca por su velocidad, permitiendo imprimir hasta 40 páginas por minuto. Esto asegura que se puedan cumplir con las demandas diarias de trabajo eficientemente, sin perder calidad en el proceso."
+            }
+          ]
+        },
+        {
+          "title": "RICOH MP C307",
+          "image": "mp_c307",
+          "description": [
+            {
+              "title": "Introducción a la Ricoh MP C307",
+              "description": "La Ricoh MP C307 es una impresora de escritorio full color que ofrece un rendimiento excepcional. Con la capacidad de imprimir 30 páginas por minuto en tamaños carta y oficio, es perfecta para oficinas de cualquier tamaño."
+            },
+            {
+              "title": "Características Destacadas",
+              "description": "Entre las características más destacadas de la Ricoh MP C307 se encuentra un versátil servicio de alimentador de documentos. Este equipo facilita la gestión de trabajos de impresión grandes, asegurando que tus documentos se procesen eficazmente."
+            },
+            {
+              "title": "Panel Inteligente",
+              "description": "El panel inteligente es una de las innovaciones de la Ricoh MP C307. Este panel intuitivo permite a los usuarios navegar y operar la impresora fácilmente, mejorando la productividad en el entorno de trabajo."
+            },
+            {
+              "title": "Conclusión",
+              "description": "La Ricoh MP C307 es una opción ideal para quienes buscan una impresora de alto rendimiento y versatilidad. Su capacidad de imprimir a alta velocidad, junto con su avanzado alimentador de documentos y panel inteligente, la convierte en una herramienta esencial para cualquier oficina."
+            }
+          ]
+        },
+        {
+          "title": "SERIE 3 DE COLOR PARA TAMAÑO A3",
+          "image": "serie3_color_a3",
+          "description": [
+            {
+              "title": "Introducción a la Serie Tres de Ricoh Full Color",
+              "description": "Las impresoras de la serie tres de Ricoh Full Color ofrecen una velocidad que varía entre 20, 25, 30, 35, 45 y 55 páginas por minuto. Estas impresoras están diseñadas para manejar múltiples tamaños de papel, desde media carta hasta un tabloide completo."
+            },
+            {
+              "title": "Configuración Personalizable",
+              "description": "Una de las características sobresalientes de estas impresoras es su configuración de capacidad de papel personalizada. Pueden iniciarse con una configuración básica de dos bandejas y expandirse hasta cuatro bandejas, permitiendo flexibilidad según las necesidades de tu oficina."
+            },
+            {
+              "title": "Conectividad en Red",
+              "description": "Además, las impresoras de la serie tres de Ricoh Full Color están equipadas con conectividad en red para escaneado e impresión. Esta característica garantiza una fácil integración en la infraestructura existente de la oficina, mejorando la eficiencia y la conectividad."
+            }
+          ]
+        },
+        {
+          "title": "SERIE 4 DE COLOR PARA TAMAÑO A3",
+          "image": "serie4_color_a3",
+          "description": [
+            {
+              "title": "Innovación y Tecnología en Tu Oficina",
+              "description": "Las RICOH Full Color serie cuatro están diseñadas con un panel inteligente que mejora su funcionamiento general. Este panel intuitivo permite una fácil navegación, haciendo que cada tarea sea más fluida y eficiente."
+            },
+            {
+              "title": "Máxima Versatilidad con Cuatro Bandejas de Papel",
+              "description": "Una de las características más destacadas de esta serie es su configuración con cuatro bandejas para papel. Esta funcionalidad permite manejar diferentes tipos y tamaños de papel sin esfuerzo, optimizando tus procesos de impresión."
+            },
+            {
+              "title": "Conectividad en Red de Alto Rendimiento",
+              "description": "Además, la serie cuatro de RICOH Full Color destaca por su versatilidad en conectividad en red. Esta capacidad garantiza que varios dispositivos puedan conectarse y utilizar la impresora de manera simultánea, mejorando así la productividad de todo el equipo."
+            }
+          ]
+        }
+      ]
+    },
+    "supplies": {
+      "toners": [
+        {
+          "title": "MP 4002",
+          "image": "imagen 1",
+          "description": [
+            {
+              "title": "Overview",
+              "description": "Este cartucho de toner está específicamente diseñado para su uso en las máquinas Ricoh MP 4000 - 5000, MP 4001-5001, y MP 4002-5002. El cartucho está listo para instalar y proporciona una solución eficiente y confiable para satisfacer sus necesidades de impresión."
+            },
+            {
+              "title": "Características",
+              "description": "El cartucho de toner se destaca por su fácil instalación y excelente compatibilidad con varios modelos de máquinas Ricoh. Además, ofrece una alta capacidad de impresión, asegurando un rendimiento duradero y consistente en cada uso."
+            },
+            {
+              "title": "Beneficios",
+              "description": "Utilizar este cartucho de toner específico para su Ricoh MP garantiza impresiones claras y precisas. Con su alta capacidad, reduce la necesidad de reemplazos frecuentes, lo que resulta en una mayor eficiencia y menor costo operativo a largo plazo."
+            }
+          ]
+        },
+        {
+          "title": "MP 301",
+          "image": "imagen 1",
+          "description": [
+            {
+              "title": "Características del Cartucho de Toner",
+              "description": "El cartucho de toner listo para instalar es específico para las máquinas Ricoh MP 301, garantizando una instalación sencilla y sin complicaciones. Este producto está diseñado para proporcionar una calidad de impresión excepcional y duradera."
+            },
+            {
+              "title": "Compatibilidad y Rendimiento",
+              "description": "El cartucho es 100% compatible con la serie Ricoh MP 301, asegurando que cada impresión sea nítida y profesional. Además, mantiene un alto rendimiento para satisfacer las necesidades de cualquier entorno de oficina."
+            },
+            {
+              "title": "Beneficios del Uso",
+              "description": "Optar por este cartucho de toner asegura que las impresoras Ricoh MP 301 funcionen de manera óptima. Reduce el tiempo de inactividad y proporciona impresiones de alta calidad, lo que es esencial para la eficiencia operativa diaria."
+            }
+          ]
+        },
+        {
+          "title": "MP 7502 - MP 7500 - MP 8001",
+          "image": "imagen 1",
+          "description": [
+            {
+              "title": "Reemplazo de tóner sin esfuerzo",
+              "description": "El cartucho de tóner está diseñado para una compatibilidad perfecta con máquinas de alto rendimiento como MP7500, MP6001 y MP7502. Este cartucho de tóner garantiza que su máquina proporcione impresiones uniformes y de alta calidad sin la molestia de procesos de instalación complicados."
+            },
+            {
+              "title": "Rendimiento óptimo",
+              "description": "Este cartucho de tóner listo para instalar garantiza un rendimiento óptimo para su MP7500, MP6001 o MP7502. Imprima documentos nítidos, claros y profesionales con cada impresión. El polvo de tóner, diseñado con gran precisión, evita las manchas y las rayas, lo que proporciona resultados impecables."
+            },
+            {
+              "title": "Solución rentable",
+              "description": "Al elegir este cartucho de tóner, ahorrará en reparaciones costosas y tiempo de inactividad. El cartucho de tóner está diseñado para durar y ofrece una excelente relación calidad-precio. Maximice la productividad de su MP7500, MP6001 o MP7502 con esta solución de tóner confiable y eficiente."
+            }
+          ]
+        },
+        {
+          "title": "TONER ORIGINAL PARA RICOH FULL COLOR",
+          "image": "imagen 1",
+          "description": [
+            {
+              "title": "Calidad Superior en Todos los Tipos de Toner",
+              "description": "El toner original para multifuncionales full color ofrece una calidad de impresión excepcional. Diseñado específicamente para proporcionar resultados vibrantes y duraderos, este toner garantiza que cada documento impreso sea de alta calidad."
+            },
+            {
+              "title": "Compatibilidad con Varias Referencias",
+              "description": "Este toner es compatible con todas las referencias de multifuncionales full color, asegurando un rendimiento consistente independientemente del modelo del dispositivo. Esto te brinda la confianza de que has elegido el producto adecuado para tus necesidades de impresión."
+            },
+            {
+              "title": "Beneficios del Uso de Toner Original",
+              "description": "Utilizar toner original para tus multifuncionales full color no solo mejora la calidad de impresión, sino que también prolonga la vida útil de tus equipos de impresión. Además, estos toner`s están diseñados para operar de manera eficiente, ahorrando tiempo y reduciendo costos a largo plazo."
+            }
+          ]
+        }
+      ],
+      "recharge": [
+        {
+          "title": "RECARGAS DE TONER PARA RICOH FULL COLOR",
+          "image": "imagen 1",
+          "description": [
+            {
+              "title": "Introducción a nuestras recargas",
+              "description": "En nuestra tienda, manejamos recargas de excelente calidad para diversos modelos de multifuncionales Ricoh full color. Nos aseguramos de que cada recarga cumpla con los más altos estándares de rendimiento y durabilidad."
+            },
+            {
+              "title": "Compatibilidad con diversos modelos Ricoh",
+              "description": "Nuestras recargas son compatibles con una amplia gama de multifuncionales Ricoh. Esto garantiza que los usuarios puedan mantener sus equipos funcionando de manera óptima y sin interrupciones. Cada recarga está formulada para trabajar en perfecta armonía con los sistemas Ricoh."
+            },
+            {
+              "title": "Ventajas de elegir nuestras recargas",
+              "description": "Al elegir nuestras recargas, obtiene una excelente relación calidad-precio. Cada recarga no solo ofrece resultados de alta calidad, sino que también contribuye a la longevidad de su equipo. Aproveche nuestras recargas para mantener sus impresoras Ricoh full color en perfecta condición."
+            }
+          ]
+        },
+        {
+          "title": "RECARGAS DE TONER PARA RICOH MONOCROMATIA (B&N)",
+          "image": "imagen 1",
+          "description": [
+            {
+              "title": "Introducción a las Recargas Universales",
+              "description": "Nuestra empresa se especializa en proporcionar recarga universal para Ricoh monocromática, adecuada tanto para volúmenes pequeños como medianos."
+            },
+            {
+              "title": "Excelentes Resultados Garantizados",
+              "description": "Ofrecemos recargas universales que garantizan alta calidad y rendimiento eficiente. Nos aseguramos de que cada recarga mantenga la funcionalidad óptima de su impresora."
+            },
+            {
+              "title": "Beneficios de Nuestras Recargas Universales",
+              "description": "Las recargas universales para Ricoh monocromática de nuestra marca son tanto económicamente accesibles como ecológicamente responsables. Al optar por nuestras recargas, no solo mejora la eficiencia de impresión, sino que también contribuye a la sostenibilidad medioambiental."
+            }
+          ]
+        }
+      ],
+      "parts": [
+        {
+            "title": "REPUESTOS  PARA RICOH MONOCROMATIA (B&N) Y FULL COLOR EN TODAS LAS REFERENCIAS",
+            "image": "imagen 1",
+            "description": [
+              {
+                "title": "Introducción a Nuestros Repuestos de Alta Rotación",
+                "description": "En nuestra empresa, manejamos repuestos de alta rotación necesarios para las multifuncionales full color y blanco y negro. Estos repuestos son esenciales para mantener un rendimiento óptimo en su equipo, garantizando impresiones de calidad y durabilidad."
+              },
+              {
+                "title": "Repuestos para Equipos de Pequeña a Gran Producción",
+                "description": "Ofrecemos una amplia gama de repuestos tanto en kits de reemplazo como en partes individuales. Nuestros productos abarcan equipos de pequeña, mediana y gran producción, asegurando que, sin importar el tamaño de su operación, podamos proporcionar los componentes necesarios."
+              },
+              {
+                "title": "Beneficios de Elegir Nuestros Repuestos",
+                "description": "Elegir nuestros repuestos de alta rotación significa optar por calidad y eficiencia. Cada componente está diseñado para integrarse perfectamente en su multifuncional, reduciendo el tiempo de inactividad y mejorando la productividad general de su negocio."
+              }
+            ]
+        },
+        {
+            "title": "REPUESTOS ORIGINALES USADOS DE BAJA ROTACION",
+            "image": "imagen 1",
+            "description": [
+              {
+                "title": "Amplia Variedad de Repuestos",
+                "description": "Nuestra tienda ofrece una amplia variedad de repuestos usados importados, perfectos para mantener tus máquinas multifuncionales en óptimas condiciones. Disponemos de una selección cuidadosamente elegida que se adapta tanto a modelos de impresoras full color como a blanco y negro."
+              },
+              {
+                "title": "Accesibilidad y Calidad",
+                "description": "Entendemos la importancia de la relación calidad-precio, por eso nuestros repuestos son accesibles sin comprometer la eficiencia y durabilidad de tus equipos. Traemos componentes de alta calidad que han pasado por rigurosos controles para asegurar su funcionamiento."
+              },
+              {
+                "title": "Para Todas las Necesidades",
+                "description": "Ya sea que necesites repuestos para mantenimiento regular o para reparaciones específicas, contamos con las piezas adecuadas que garantizarán la continuidad de tu trabajo diario. No dudes en explorar nuestra oferta y encontrar lo que necesitas para tus máquinas multifuncionales."
+              }
+            ]
+        }
+      ]
+    }
+  },
+  "contactPage": {
+    "title": "title",
+    "copy_1": "copy_1",
+    "items": [
+      {
+        "id": "001",
+        "name": "Nombre 1",
+        "description": "Descripcion 1",
+        "image": "imagen 1",
+        "price": "100",
+        "note": "nota 1"
+      },
+      {
+        "id": "001",
+        "name": "Nombre 1",
+        "description": "Descripcion 1",
+        "image": "imagen 1",
+        "price": "100",
+        "note": "nota 1"
+      },
+      {
+        "id": "001",
+        "name": "Nombre 1",
+        "description": "Descripcion 1",
+        "image": "imagen 1",
+        "price": "100",
+        "note": "nota 1"
+      }
+    ]
+  }
 }
