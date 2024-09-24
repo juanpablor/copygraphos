@@ -1,39 +1,121 @@
 import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
+import { HeadFC, navigate, PageProps } from "gatsby";
+import { useLocation } from "@reach/router";
 import LayoutPage from "./layout";
-import { Company, ProductSection, Description, ProductCategory } from "../interfaces";
+import {
+  Company,
+  ProductSection,
+  Description,
+  ProductCategory,
+} from "../interfaces";
 import companyData from "../data/data.json";
 import images from "../images/index";
+import ProductModal from "../components/ProductModal"; // Importar el modal
+import { useState, useEffect } from "react";
+import ClickIcon from "../components/click";
 
 const ProductsPage: React.FC<PageProps> = () => {
   const data: Company = companyData;
+  const location = useLocation();
+  const [selectedProduct, setSelectedProduct] =
+    useState<ProductCategory | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = (product: ProductCategory) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+    navigate(`?producto=${product.image}`, { replace: true });
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedProduct(null);
+    navigate("?", { replace: true });
+  };
+
+  // Detect if there's a product in the URL on load and open the modal
+  useEffect(() => {
+    const productImage = location.pathname.split("/").pop();
+    if (productImage && images[productImage]) {
+      const foundProduct = findProductByImage(productImage);
+      if (foundProduct) {
+        setSelectedProduct(foundProduct);
+        setIsModalOpen(true);
+      }
+    }
+  }, [location.pathname]);
+
+  // Helper function to find product by image
+  const findProductByImage = (imageName: string): ProductCategory | null => {
+    for (const section of Object.values(data.productsPage)) {
+      for (const productCategory of Object.values(section)) {
+        const foundProduct = productCategory?.find(
+          (product: ProductCategory) => product.image === imageName
+        );
+        if (foundProduct) return foundProduct;
+      }
+    }
+    return null;
+  };
 
   return (
+    <>
     <LayoutPage>
       <div className={styles.container}>
-        {Object.entries(data.productsPage).map(([categoryKey, productSection]: [string, ProductSection]) => (
-          <div key={categoryKey}>
-            <h2 className={styles.title}>{categoryKey.charAt(0).toUpperCase() + categoryKey.slice(1)}</h2>
-            <div className="flex flex-col gap-6">
-              {Object.values(productSection).map((productCategory: ProductCategory[]) => 
-                productCategory?.map((product: ProductCategory, index: number) => (
-                  <div key={index} className={styles.card}>
-                    <h3>{product.title}</h3>
-                    <img src={images[product.image] ? images[product.image] : product.image} alt={product.title} className="w-full h-auto" />
-                    {product.description.map((desc: Description, i: number) => (
-                      <div key={i}>
-                        <h4>{desc.title}</h4>
-                        <p>{desc.description}</p>
-                      </div>
-                    ))}
-                  </div>
-                ))
-              )}
+        {Object.entries(data.productsPage).map(
+          ([categoryKey, productSection]: [string, ProductSection]) => (
+            <div key={categoryKey}>
+              <h2 className={styles.title}>
+                {categoryKey.charAt(0).toUpperCase() + categoryKey.slice(1)}
+              </h2>
+              <div className="flex flex-col gap-6">
+                {Object.values(productSection).map(
+                  (productCategory: ProductCategory[]) =>
+                    productCategory?.map(
+                      (product: ProductCategory, index: number) => (
+                        <div key={index} className={styles.cta}>
+                          <button className={styles.thumbnail} onClick={() => openModal(product)}>
+                            <img
+                              src={
+                                images[product.image]
+                                  ? images[product.image]
+                                  : product.image
+                              }
+                              alt={product.title}
+                              className="w-16 h-16"
+                            />
+                            <h3 className={styles.productTitle}>
+                              {product.title}
+                            </h3>
+                              <div className={styles.clickicon}>
+                                <ClickIcon fillColour="#ADB5BD" />
+                              </div>
+                          </button>
+                        </div>
+                      )
+                    )
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        )}
       </div>
     </LayoutPage>
+
+      {selectedProduct && (
+            <ProductModal
+              isOpen={isModalOpen}
+              onClose={closeModal}
+              product={{ ...selectedProduct, title: selectedProduct.title ?? "" }}
+              imageUrl={
+                images[selectedProduct.image]
+                  ? images[selectedProduct.image]
+                  : selectedProduct.image
+              }
+            />
+      )}
+
+    </>
   );
 };
 
@@ -42,7 +124,10 @@ export default ProductsPage;
 export const Head: HeadFC = () => <title>Productos</title>;
 
 const styles = {
-  container: "flex flex-col gap-6",
-  card: "flex flex-col bg-white rounded rounded-[2rem] gap-4 shadow-2xl p-8",
+  container: "flex flex-col sm:flex-row gap-x-6",
+  cta: "flex flex-col bg-white shadow-2xl p-2",
+  clickicon: "flex w-6 h-6 ml-2 self-center",
   title: "text-3xl text-center font-semibold",
+  thumbnail: "flex flex-row justify-between",
+  productTitle: "self-center"
 };

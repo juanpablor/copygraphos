@@ -228,7 +228,7 @@
       "toners": [
         {
           "title": "MP 4002",
-          "image": "imagen 1",
+          "image": "toner_mp_4002",
           "description": [
             {
               "title": "Overview",
@@ -246,7 +246,7 @@
         },
         {
           "title": "MP 301",
-          "image": "imagen 1",
+          "image": "toner_mp_301",
           "description": [
             {
               "title": "Características del Cartucho de Toner",
@@ -264,7 +264,7 @@
         },
         {
           "title": "MP 7502 - MP 7500 - MP 8001",
-          "image": "imagen 1",
+          "image": "toner_mp_7500_7502_8001",
           "description": [
             {
               "title": "Reemplazo de tóner sin esfuerzo",
@@ -282,7 +282,7 @@
         },
         {
           "title": "TONER ORIGINAL PARA RICOH FULL COLOR",
-          "image": "imagen 1",
+          "image": "toner_full_color",
           "description": [
             {
               "title": "Calidad Superior en Todos los Tipos de Toner",
@@ -302,7 +302,7 @@
       "recharge": [
         {
           "title": "RECARGAS DE TONER PARA RICOH FULL COLOR",
-          "image": "imagen 1",
+          "image": "recarga_full_color",
           "description": [
             {
               "title": "Introducción a nuestras recargas",
@@ -320,7 +320,7 @@
         },
         {
           "title": "RECARGAS DE TONER PARA RICOH MONOCROMATIA (B&N)",
-          "image": "imagen 1",
+          "image": "recarga_bn",
           "description": [
             {
               "title": "Introducción a las Recargas Universales",
@@ -340,7 +340,7 @@
       "parts": [
         {
             "title": "REPUESTOS  PARA RICOH MONOCROMATIA (B&N) Y FULL COLOR EN TODAS LAS REFERENCIAS",
-            "image": "imagen 1",
+            "image": "repuestos_full_referencias",
             "description": [
               {
                 "title": "Introducción a Nuestros Repuestos de Alta Rotación",
@@ -358,7 +358,7 @@
         },
         {
             "title": "REPUESTOS ORIGINALES USADOS DE BAJA ROTACION",
-            "image": "imagen 1",
+            "image": "repuestos_usados",
             "description": [
               {
                 "title": "Amplia Variedad de Repuestos",
