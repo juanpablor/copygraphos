@@ -4,4 +4,12 @@
 @tailwind utilities;
 body {
   font-family: "Montserrat", system-ui;
+}
+
+.text_shadow {
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.box_shadow {
+  box-shadow: 3px 3px 6px 3px #696969;
 }/*# sourceMappingURL=global.css.map */

@@ -13,7 +13,7 @@ module.exports = {
         semilight: "#E9ECEF",
         regular: "#ADB5BD",
         semidark: "#6C757D",
-        dark: "212529"
+        dark: "#212529"
       }
     },
   },

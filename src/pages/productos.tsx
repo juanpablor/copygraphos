@@ -5,7 +5,6 @@ import LayoutPage from "./layout";
 import {
   Company,
   ProductSection,
-  Description,
   ProductCategory,
 } from "../interfaces";
 import companyData from "../data/data.json";
@@ -33,7 +32,6 @@ const ProductsPage: React.FC<PageProps> = () => {
     navigate("?", { replace: true });
   };
 
-  // Detect if there's a product in the URL on load and open the modal
   useEffect(() => {
     const productImage = location.pathname.split("/").pop();
     if (productImage && images[productImage]) {
@@ -45,7 +43,6 @@ const ProductsPage: React.FC<PageProps> = () => {
     }
   }, [location.pathname]);
 
-  // Helper function to find product by image
   const findProductByImage = (imageName: string): ProductCategory | null => {
     for (const section of Object.values(data.productsPage)) {
       for (const productCategory of Object.values(section)) {
@@ -64,9 +61,9 @@ const ProductsPage: React.FC<PageProps> = () => {
       <div className={styles.container}>
         {Object.entries(data.productsPage).map(
           ([categoryKey, productSection]: [string, ProductSection]) => (
-            <div key={categoryKey}>
+            <div key={categoryKey} className={styles.column}>
               <h2 className={styles.title}>
-                {categoryKey.charAt(0).toUpperCase() + categoryKey.slice(1)}
+                {categoryKey === "printers" ? "Impresoras" : "Suministros"}
               </h2>
               <div className="flex flex-col gap-6">
                 {Object.values(productSection).map(
@@ -124,10 +121,11 @@ export default ProductsPage;
 export const Head: HeadFC = () => <title>Productos</title>;
 
 const styles = {
-  container: "flex flex-col sm:flex-row gap-x-6",
+  container: "flex flex-col sm:flex-row gap-4 w-full sm:w-4/5 mx-auto",
+  column: "w-full sm:w-1/2",
   cta: "flex flex-col bg-white shadow-2xl p-2",
   clickicon: "flex w-6 h-6 ml-2 self-center",
-  title: "text-3xl text-center font-semibold",
+  title: "text-2xl text-center font-semibold py-4",
   thumbnail: "flex flex-row justify-between",
-  productTitle: "self-center"
+  productTitle: "self-center leading-4"
 };
