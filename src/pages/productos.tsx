@@ -127,5 +127,5 @@ const styles = {
   clickicon: "flex w-6 h-6 ml-2 self-center",
   title: "text-2xl text-center font-semibold py-4",
   thumbnail: "flex flex-row justify-between",
-  productTitle: "self-center leading-4"
+  productTitle: "text-sm self-center leading-4 px-4"
 };

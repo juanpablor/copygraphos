@@ -36,5 +36,5 @@ export const Head: HeadFC = () => <title>Servicios</title>;
 const styles = {
   container: "flex flex-col gap-6",
   card: "flex flex-col bg-white rounded rounded-[2rem] gap-4 shadow-2xl p-8",
-  title: "text-3xl text-center font-semibold",
+  title: "text-xl text-semidark text-center font-semibold",
 };

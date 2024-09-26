@@ -45,8 +45,13 @@ export interface Company {
     printers: ProductSection;  // Secciones de productos impresoras
     supplies: ProductSection;  // Secciones de productos suministros
   };
-  contactPage: {
+  quienesSomosPage: {
     title: string;
-    copy_1: string;
+    items: Array<{
+      title: string;
+      description: Array<{
+        paragraph: string;
+      }>;
+    }>;
   };
 }

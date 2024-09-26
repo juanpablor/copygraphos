@@ -377,33 +377,44 @@
       ]
     }
   },
-  "contactPage": {
-    "title": "title",
-    "copy_1": "copy_1",
+  "quienesSomosPage": {
+    "title": "Quienes Somos",
     "items": [
       {
-        "id": "001",
-        "name": "Nombre 1",
-        "description": "Descripcion 1",
-        "image": "imagen 1",
-        "price": "100",
-        "note": "nota 1"
+        "title": "Nuestra misión",
+        "description" : [
+            {
+                "paragraph": "COPYGRAPHOS, es una empresa creada para prestar servicios óptimos  de mantenimiento en infraestructura y equipos multifuncionales en  centros de gestión de documentos, industrial y a nivel corporativo."
+            },
+            {
+                "paragraph": "Para cumplir estos objetivos COPYGRAPHOS, cuenta con un personal idóneo y capacitado que nos permite brindar una calidad óptima destacándonos y manteniéndonos a la vanguardia de la tecnología del siglo XXI, la cual genera la satisfacción al cliente y la seguridad en sus servicios."
+            }
+        ]
       },
       {
-        "id": "001",
-        "name": "Nombre 1",
-        "description": "Descripcion 1",
-        "image": "imagen 1",
-        "price": "100",
-        "note": "nota 1"
+        "title": "Nuestra visión",
+        "description" : [
+            {
+                "paragraph": "COPYGRAPHOS, en el 2027 será una empresa reconocida  por su eficacia, solidez, cumplimiento y calidad humana en el soporte técnico en multifuncionales siendo la mejor alternativa en el mercado, el cual  brinda a nuestros clientes el mejor precio-beneficio en Colombia."
+            }
+        ]
       },
       {
-        "id": "001",
-        "name": "Nombre 1",
-        "description": "Descripcion 1",
-        "image": "imagen 1",
-        "price": "100",
-        "note": "nota 1"
+        "title": "Nuestros objetivos",
+        "description" : [
+            {
+                "paragraph": "Cubrir en 20% el mercado de centros de documentación y fotocopiado en Colombia  abriendo nuestras expectativas al primer semestre del año para así incrementar nuestro nivel de producción."
+            },
+            {
+                "paragraph": "Crear alianzas y estrategias para ofrecer un excelente soporte técnico y eficacia de nuestro servicio."
+            },
+            {
+                "paragraph": "Crecer de manera proporcional con nuestro recurso humano e infraestructura tecnológica de acuerdo a la demanda anual."
+            },
+            {
+                "paragraph": "Nuestra principal meta es mantenernos en constante evolución en el aprendizaje continuo y en el desarrollo de la tecnología de punta con nuestro equipo humano, la infraestructura, para ser reconocidos como la mejor solución competente en el mercado actual."
+            }
+        ]
       }
     ]
   }
