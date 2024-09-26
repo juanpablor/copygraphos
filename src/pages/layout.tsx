@@ -6,6 +6,7 @@ import images from "../images";
 import Navigation from "../components/nav";
 import { Company } from "../interfaces";
 import companyData from "../data/data.json";
+import Footer from "../components/footer";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -32,6 +33,9 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
       {transitions((style, item) => (
         <animated.main style={style} className={styles.content}>{children}</animated.main>
       ))}
+      <div className="flex mx-4">
+        <Footer />
+      </div>
     </div>
   );
 };
@@ -41,7 +45,7 @@ export default LayoutPage;
 export const Head: HeadFC = () => <title>Home Page</title>;
 
 const styles = {
-  header: "flex",
+  header: "flex  w-full sm:w-3/4 mx-auto",
   logoImage: "w-72 sm:w-[500px]",
   navWrapper: "w-full sm:w-full",
   content: "p-4 sm:p-8"

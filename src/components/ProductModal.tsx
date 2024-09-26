@@ -29,13 +29,6 @@ const ProductModal: React.FC<ProductModalProps> = ({
           <button onClick={onClose} className="text-2xl font-bold w-6 h-6 "><TfiClose className="text-white w-4 h-4" /></button>        
         </div>
       <div className="relative bg-white max-w-lg w-full max-h-full overflow-auto box_shadow">
-        {/* <div className="top-0 sticky bg-semilight p-6 flex flex-row justify-between">
-          <h2 className="text-2xl font-bold">{product.title}</h2>
-          <button onClick={onClose} className="text-2xl font-bold w-8 h-8 ">
-            <TfiClose />
-          </button>
-          </div> */}
-
         <div className="">
             <div className="relative">
                 <img

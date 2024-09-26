@@ -1,10 +1,40 @@
 {
   "companyName": "Copygraphos",
-  "address": "",
+  "address": "​Carrera 32 No 33-99 Soacha Cundinamarca",
+  "email": "copygraphos@gmail.com",
+  "phone_1": "+57 310 805 92 52",
+  "phone_2": "+57 304 683 42 62",
+  "whatsApp": "nullio",
+  "facebook": "nullio",
+  "instagram": "nullio",
   "menu": ["inicio", "servicios", "productos", "quienesSomos"],
   "homePage": {
-    "title": "title",
-    "copy_1": "copy_1"
+    "title": "Alquiler y Venta de fotocopiadoras Ricoh",
+    "copies": [
+      {
+        "paragraph": "Tenemos a su disposición mas de un canal de comunicación y están dedicados para ustedes nuestros clientes."
+      },
+      {
+        "paragraph": "A demás hay diferentes formas directas para el pago de sus pedidos, contamos con entregas a nivel nacional, asesorías por video llamada y configuraciones remotas gracias a la internet."
+      }
+    ],
+    "items": [
+      {
+        "title": "Nuestros equipos",
+        "image": "nuestros_equipos",
+        "description": "Pensando en el futuro de tu negocio hemos implementado un sistema de alquiler, con el cual vas a tener seguridad y tranquilidad sin preocupaciones."
+      },
+      {
+        "title": "Servicio técnico y ventas",
+        "image": "servicio_y_ventas",
+        "description": "Contamos con servicio técnico especializado con una amplia gama de marcas y equipos, como también asesoría en adquisición de maquinaria para tu empresa."
+      },
+      {
+        "title": "Insumos para sus equipos",
+        "image": "insumos",
+        "description": "Encontraras gran variedad de insumos y repuestos de diferentes marcas, para solucionar tus eventualidades y/o emergencias. Contamos con personal capacitado para guiarte y ayudarte ya sea de forma virtual o presencial según el caso requerido."
+      }
+    ]
   },
   "servicesPage": [
     {
@@ -339,40 +369,40 @@
       ],
       "parts": [
         {
-            "title": "REPUESTOS  PARA RICOH MONOCROMATIA (B&N) Y FULL COLOR EN TODAS LAS REFERENCIAS",
-            "image": "repuestos_full_referencias",
-            "description": [
-              {
-                "title": "Introducción a Nuestros Repuestos de Alta Rotación",
-                "description": "En nuestra empresa, manejamos repuestos de alta rotación necesarios para las multifuncionales full color y blanco y negro. Estos repuestos son esenciales para mantener un rendimiento óptimo en su equipo, garantizando impresiones de calidad y durabilidad."
-              },
-              {
-                "title": "Repuestos para Equipos de Pequeña a Gran Producción",
-                "description": "Ofrecemos una amplia gama de repuestos tanto en kits de reemplazo como en partes individuales. Nuestros productos abarcan equipos de pequeña, mediana y gran producción, asegurando que, sin importar el tamaño de su operación, podamos proporcionar los componentes necesarios."
-              },
-              {
-                "title": "Beneficios de Elegir Nuestros Repuestos",
-                "description": "Elegir nuestros repuestos de alta rotación significa optar por calidad y eficiencia. Cada componente está diseñado para integrarse perfectamente en su multifuncional, reduciendo el tiempo de inactividad y mejorando la productividad general de su negocio."
-              }
-            ]
+          "title": "REPUESTOS  PARA RICOH MONOCROMATIA (B&N) Y FULL COLOR EN TODAS LAS REFERENCIAS",
+          "image": "repuestos_full_referencias",
+          "description": [
+            {
+              "title": "Introducción a Nuestros Repuestos de Alta Rotación",
+              "description": "En nuestra empresa, manejamos repuestos de alta rotación necesarios para las multifuncionales full color y blanco y negro. Estos repuestos son esenciales para mantener un rendimiento óptimo en su equipo, garantizando impresiones de calidad y durabilidad."
+            },
+            {
+              "title": "Repuestos para Equipos de Pequeña a Gran Producción",
+              "description": "Ofrecemos una amplia gama de repuestos tanto en kits de reemplazo como en partes individuales. Nuestros productos abarcan equipos de pequeña, mediana y gran producción, asegurando que, sin importar el tamaño de su operación, podamos proporcionar los componentes necesarios."
+            },
+            {
+              "title": "Beneficios de Elegir Nuestros Repuestos",
+              "description": "Elegir nuestros repuestos de alta rotación significa optar por calidad y eficiencia. Cada componente está diseñado para integrarse perfectamente en su multifuncional, reduciendo el tiempo de inactividad y mejorando la productividad general de su negocio."
+            }
+          ]
         },
         {
-            "title": "REPUESTOS ORIGINALES USADOS DE BAJA ROTACION",
-            "image": "repuestos_usados",
-            "description": [
-              {
-                "title": "Amplia Variedad de Repuestos",
-                "description": "Nuestra tienda ofrece una amplia variedad de repuestos usados importados, perfectos para mantener tus máquinas multifuncionales en óptimas condiciones. Disponemos de una selección cuidadosamente elegida que se adapta tanto a modelos de impresoras full color como a blanco y negro."
-              },
-              {
-                "title": "Accesibilidad y Calidad",
-                "description": "Entendemos la importancia de la relación calidad-precio, por eso nuestros repuestos son accesibles sin comprometer la eficiencia y durabilidad de tus equipos. Traemos componentes de alta calidad que han pasado por rigurosos controles para asegurar su funcionamiento."
-              },
-              {
-                "title": "Para Todas las Necesidades",
-                "description": "Ya sea que necesites repuestos para mantenimiento regular o para reparaciones específicas, contamos con las piezas adecuadas que garantizarán la continuidad de tu trabajo diario. No dudes en explorar nuestra oferta y encontrar lo que necesitas para tus máquinas multifuncionales."
-              }
-            ]
+          "title": "REPUESTOS ORIGINALES USADOS DE BAJA ROTACION",
+          "image": "repuestos_usados",
+          "description": [
+            {
+              "title": "Amplia Variedad de Repuestos",
+              "description": "Nuestra tienda ofrece una amplia variedad de repuestos usados importados, perfectos para mantener tus máquinas multifuncionales en óptimas condiciones. Disponemos de una selección cuidadosamente elegida que se adapta tanto a modelos de impresoras full color como a blanco y negro."
+            },
+            {
+              "title": "Accesibilidad y Calidad",
+              "description": "Entendemos la importancia de la relación calidad-precio, por eso nuestros repuestos son accesibles sin comprometer la eficiencia y durabilidad de tus equipos. Traemos componentes de alta calidad que han pasado por rigurosos controles para asegurar su funcionamiento."
+            },
+            {
+              "title": "Para Todas las Necesidades",
+              "description": "Ya sea que necesites repuestos para mantenimiento regular o para reparaciones específicas, contamos con las piezas adecuadas que garantizarán la continuidad de tu trabajo diario. No dudes en explorar nuestra oferta y encontrar lo que necesitas para tus máquinas multifuncionales."
+            }
+          ]
         }
       ]
     }
@@ -382,38 +412,38 @@
     "items": [
       {
         "title": "Nuestra misión",
-        "description" : [
-            {
-                "paragraph": "COPYGRAPHOS, es una empresa creada para prestar servicios óptimos  de mantenimiento en infraestructura y equipos multifuncionales en  centros de gestión de documentos, industrial y a nivel corporativo."
-            },
-            {
-                "paragraph": "Para cumplir estos objetivos COPYGRAPHOS, cuenta con un personal idóneo y capacitado que nos permite brindar una calidad óptima destacándonos y manteniéndonos a la vanguardia de la tecnología del siglo XXI, la cual genera la satisfacción al cliente y la seguridad en sus servicios."
-            }
+        "description": [
+          {
+            "paragraph": "COPYGRAPHOS, es una empresa creada para prestar servicios óptimos  de mantenimiento en infraestructura y equipos multifuncionales en  centros de gestión de documentos, industrial y a nivel corporativo."
+          },
+          {
+            "paragraph": "Para cumplir estos objetivos COPYGRAPHOS, cuenta con un personal idóneo y capacitado que nos permite brindar una calidad óptima destacándonos y manteniéndonos a la vanguardia de la tecnología del siglo XXI, la cual genera la satisfacción al cliente y la seguridad en sus servicios."
+          }
         ]
       },
       {
         "title": "Nuestra visión",
-        "description" : [
-            {
-                "paragraph": "COPYGRAPHOS, en el 2027 será una empresa reconocida  por su eficacia, solidez, cumplimiento y calidad humana en el soporte técnico en multifuncionales siendo la mejor alternativa en el mercado, el cual  brinda a nuestros clientes el mejor precio-beneficio en Colombia."
-            }
+        "description": [
+          {
+            "paragraph": "COPYGRAPHOS, en el 2027 será una empresa reconocida  por su eficacia, solidez, cumplimiento y calidad humana en el soporte técnico en multifuncionales siendo la mejor alternativa en el mercado, el cual  brinda a nuestros clientes el mejor precio-beneficio en Colombia."
+          }
         ]
       },
       {
         "title": "Nuestros objetivos",
-        "description" : [
-            {
-                "paragraph": "Cubrir en 20% el mercado de centros de documentación y fotocopiado en Colombia  abriendo nuestras expectativas al primer semestre del año para así incrementar nuestro nivel de producción."
-            },
-            {
-                "paragraph": "Crear alianzas y estrategias para ofrecer un excelente soporte técnico y eficacia de nuestro servicio."
-            },
-            {
-                "paragraph": "Crecer de manera proporcional con nuestro recurso humano e infraestructura tecnológica de acuerdo a la demanda anual."
-            },
-            {
-                "paragraph": "Nuestra principal meta es mantenernos en constante evolución en el aprendizaje continuo y en el desarrollo de la tecnología de punta con nuestro equipo humano, la infraestructura, para ser reconocidos como la mejor solución competente en el mercado actual."
-            }
+        "description": [
+          {
+            "paragraph": "Cubrir en 20% el mercado de centros de documentación y fotocopiado en Colombia  abriendo nuestras expectativas al primer semestre del año para así incrementar nuestro nivel de producción."
+          },
+          {
+            "paragraph": "Crear alianzas y estrategias para ofrecer un excelente soporte técnico y eficacia de nuestro servicio."
+          },
+          {
+            "paragraph": "Crecer de manera proporcional con nuestro recurso humano e infraestructura tecnológica de acuerdo a la demanda anual."
+          },
+          {
+            "paragraph": "Nuestra principal meta es mantenernos en constante evolución en el aprendizaje continuo y en el desarrollo de la tecnología de punta con nuestro equipo humano, la infraestructura, para ser reconocidos como la mejor solución competente en el mercado actual."
+          }
         ]
       }
     ]

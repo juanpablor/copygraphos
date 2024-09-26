@@ -18,6 +18,7 @@ const ServiciosPage: React.FC<PageProps> = () => {
             <img
               src={images[service.image] ? images[service.image] : service.image}
               alt={service.title}
+              className="max-w-full sm:max-w-[36rem] mx-auto"
             />
             {service.description.map((desc: Description, i: number) => (
               <CollapsibleSection key={i} title={desc.title || ""}  content={desc.description} />
@@ -34,7 +35,7 @@ export default ServiciosPage;
 export const Head: HeadFC = () => <title>Servicios</title>;
 
 const styles = {
-  container: "flex flex-col gap-6",
+  container: "flex flex-col gap-6 w-full sm:w-3/4 mx-auto ",
   card: "flex flex-col bg-white rounded rounded-[2rem] gap-4 shadow-2xl p-8",
   title: "text-xl text-semidark text-center font-semibold",
 };

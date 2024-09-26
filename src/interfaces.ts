@@ -35,15 +35,28 @@ export interface Item {
 export interface Company {
   companyName: string;
   address: string;
+  email: string;
+  phone_1: string;
+  phone_2: string;
+  whatsApp: string;
+  facebook: string;
+  instagram: string;
   menu: string[];
   homePage: {
     title: string;
-    copy_1: string;
+    copies: Array<{
+      paragraph: string;
+    }>;
+    items: Array<{
+      title: string;
+      image: string;
+      description: string;
+    }>;
   };
   servicesPage: Service[]; // Array de servicios
   productsPage: {
-    printers: ProductSection;  // Secciones de productos impresoras
-    supplies: ProductSection;  // Secciones de productos suministros
+    printers: ProductSection; // Secciones de productos impresoras
+    supplies: ProductSection; // Secciones de productos suministros
   };
   quienesSomosPage: {
     title: string;

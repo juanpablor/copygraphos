@@ -9,7 +9,7 @@ import {
 } from "../interfaces";
 import companyData from "../data/data.json";
 import images from "../images/index";
-import ProductModal from "../components/ProductModal"; // Importar el modal
+import ProductModal from "../components/ProductModal";
 import { useState, useEffect } from "react";
 import ClickIcon from "../components/click";
 
@@ -121,7 +121,7 @@ export default ProductsPage;
 export const Head: HeadFC = () => <title>Productos</title>;
 
 const styles = {
-  container: "flex flex-col sm:flex-row gap-4 w-full sm:w-4/5 mx-auto",
+  container: "flex flex-col sm:flex-row gap-4 w-full sm:w-3/4 mx-auto",
   column: "w-full sm:w-1/2",
   cta: "flex flex-col bg-white shadow-2xl p-2",
   clickicon: "flex w-6 h-6 ml-2 self-center",
