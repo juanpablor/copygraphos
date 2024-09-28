@@ -6,9 +6,6 @@ const config: GatsbyConfig = {
     siteUrl: `http://www.copygraphos.com`
   },
   pathPrefix: "",
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
@@ -28,19 +25,13 @@ const config: GatsbyConfig = {
         resolve: `gatsby-plugin-google-gtag`,
         options: {
           trackingIds: [
-            "G-X6X6TD6RP5", // Reemplaza con tu ID de Google Analytics
-            // Si tienes otras IDs de seguimiento como Google Ads, puedes añadirlas aquí
-            // "AW-CONVERSION_ID", 
-            // "DC-FLOODIGHT_ID",
+            "G-X6X6TD6RP5",
           ],
-          // Configuración de Google Analytics para anonimizar IPs, evitar seguimiento en desarrollo, etc.
           gtagConfig: {
             anonymize_ip: true,
             cookie_expires: 0,
           },
-          // Configuración adicional
           pluginConfig: {
-            // Deshabilitar el tracking en entornos de desarrollo
             head: true,
             respectDNT: true,
             exclude: ["/preview/**", "/do-not-track/**"],
