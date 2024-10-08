@@ -69,7 +69,7 @@ export const Head: HeadFC = () => <title>Home Page</title>;
 
 const styles = {
   header: "flex  w-full sm:w-3/4 mx-auto",
-  logoImage: "w-72 sm:w-[500px]",
+  logoImage: "w-72 sm:w-[330px]",
   navWrapper: "w-full sm:w-full",
   content: "p-4 sm:p-8",
 };
