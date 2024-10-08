@@ -27,9 +27,9 @@ const Navigation: React.FC<{ data: Company }> = ({ data }) => {
     <nav className={styles.container}>
       <button onClick={toggleMenu} className={styles.burgerButton}>
         {isMenuOpen ? (
-          <FiX className="text-black" size={24} />
+          <FiX className="text-black text-4xl" />
         ) : (
-          <FiMenu className="text-black" size={24} />
+          <FiMenu className="text-black text-4xl" />
         )}
       </button>
 
@@ -52,7 +52,7 @@ const Navigation: React.FC<{ data: Company }> = ({ data }) => {
                 }`}
                 activeClassName="text-secondary"
               >
-                {item === "quienesSomos" ? "Quienes somos" : item}
+                {item === "quienesSomos" ? "Quiénes somos" : item}
               </Link>
             </li>
           );
@@ -66,10 +66,10 @@ export default Navigation;
 
 const styles = {
   container: "flex justify-end sm:justify-center h-[96px] sm:h-auto",
-  burgerButton: "md:hidden flex text-black focus:outline-none self-center mr-8",
+  burgerButton: "md:hidden flex text-black focus:outline-none self-center",
   buttonsWrapper:
-    "flex flex-col sm:flex-row bg-white sm:bg-transparent absolute sm:relative z-10 top-24 left-0 justify-evenly items-center w-full md:w-auto py-8",
-  buttons: "text-black px-8 my-8 hover:underline hover:text-secondary capitalize whitespace-nowrap",
+    "flex flex-col sm:flex-row bg-white sm:bg-transparent absolute sm:relative z-10 left-0 justify-evenly items-center w-full md:w-auto py-8 gap-4",
+  buttons: "text-black text-2xl hover:underline hover:text-secondary capitalize whitespace-nowrap font-bold",
   menuOpen: "block md:flex",
   menuClosed: "hidden md:flex",
 };

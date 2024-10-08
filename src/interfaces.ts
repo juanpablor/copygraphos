@@ -41,6 +41,7 @@ export interface Company {
   whatsApp: string;
   facebook: string;
   instagram: string;
+  tiktok: string;
   menu: string[];
   homePage: {
     title: string;

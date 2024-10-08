@@ -8,6 +8,8 @@ import { ImWhatsapp } from "react-icons/im";
 import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
+import { AiFillTikTok } from "react-icons/ai";
+
 
 const Footer: React.FC = () => {
   const data: Company = companyData;
@@ -67,6 +69,15 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                 >
                   <RxInstagramLogo />
+                </a>
+              )}
+              {data.tiktok !== "null" && (
+                <a
+                  href={data.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillTikTok />
                 </a>
               )}
             </div>

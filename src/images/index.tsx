@@ -1,4 +1,5 @@
 import alquiler from "./alquiler.jpg";
+import banner from "./banner.png";
 import funcionales from "./funcionales.jpg";
 import insumos from "./insumos.jpg";
 import logo from "./logo.jpg";
@@ -24,6 +25,7 @@ import toner_mp_7500_7502_8001 from "./toner_mp_7500_7502_8001.jpg";
 
 const images: { [key: string]: string } = {
     alquiler,
+    banner,
     funcionales,
     insumos,
     logo,
