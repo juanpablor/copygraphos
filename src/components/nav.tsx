@@ -69,7 +69,7 @@ const styles = {
   burgerButton: "md:hidden flex text-black focus:outline-none self-center mr-8",
   buttonsWrapper:
     "flex flex-col sm:flex-row bg-white sm:bg-transparent absolute sm:relative z-10 top-24 left-0 justify-evenly items-center w-full md:w-auto py-8",
-  buttons: "text-black px-8 my-8 hover:underline hover:text-secondary capitalize",
+  buttons: "text-black px-8 my-8 hover:underline hover:text-secondary capitalize whitespace-nowrap",
   menuOpen: "block md:flex",
   menuClosed: "hidden md:flex",
 };
