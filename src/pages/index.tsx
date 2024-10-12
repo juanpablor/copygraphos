@@ -12,10 +12,9 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
       <LayoutPage>
         <div className={styles.container}>
-          {/* <h1 className={styles.title}>{title}</h1> */}
-          <img className="hidden sm:flex max-w-[1200px] mx-auto -mt-8" src={images.banner} alt={images.banner} />
-          <img className="sm:hidden flex max-w-[320px] mx-auto" src={images.bannerSq} alt={images.banner} />
-          <div className="flex w-full sm:w-3/4 flex-col sm:flex-row gap-4 mx-auto -mt-4 sm:-mt-8">
+          <img className="hidden sm:flex max-w-[1200px] mx-auto -mt-4" src={images.banner} alt={images.banner} />
+          {/* <img className="sm:hidden flex max-w-[320px] mx-auto" src={images.bannerSq} alt={images.banner} /> */}
+          <div className="flex w-full sm:w-3/4 flex-col sm:flex-row gap-4 mx-auto">
             {items.map((item, index) => (
               <div key={index} className={styles.card}>
                 <img

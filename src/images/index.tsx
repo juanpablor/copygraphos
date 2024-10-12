@@ -1,5 +1,5 @@
 import alquiler from "./alquiler.jpg";
-import banner from "./banner.png";
+import banner from "./banner.jpg";
 import bannerSq from "./banner-sq.png";
 import funcionales from "./funcionales.jpg";
 import insumos from "./insumos.jpg";

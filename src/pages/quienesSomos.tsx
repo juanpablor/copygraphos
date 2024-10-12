@@ -11,7 +11,6 @@ const QuienesSomosPage: React.FC<PageProps> = () => {
   return (
     <LayoutPage>
       <div className={styles.container}>
-        <h1 className={styles.title}>{title}</h1>
         {items.map((item, index) => (
           <div key={index} className={styles.card}>
             <h2 className={styles.title}>{item.title}</h2>

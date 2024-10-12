@@ -412,6 +412,17 @@
     "title": "Quienes Somos",
     "items": [
       {
+        "title": "Quienes Somos",
+        "description": [
+          {
+            "paragraph": "En Copygraphos, nos especializamos en la venta y alquiler de fotocopiadoras de alta calidad, ofreciendo soluciones integrales para empresas de todos los tamaños. Con 20 años de experiencia en el sector, entendemos las necesidades de nuestros clientes y estamos comprometidos a brindarles el mejor servicio."
+          },
+          {
+            "paragraph": "En Copygraphos, nos enorgullecemos de nuestra atención al cliente y de ofrecer soluciones personalizadas que impulsan la productividad de tu negocio. ¡Confía en nosotros para optimizar tus procesos de impresión!"
+          }
+        ]
+      },
+      {
         "title": "Nuestra misión",
         "description": [
           {

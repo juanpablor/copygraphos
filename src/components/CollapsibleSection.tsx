@@ -19,7 +19,7 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({ title, content 
       <h3 className={`${styles.subtitle} cursor-pointer `} onClick={toggleOpen}>
         <div className="leading-4"> {title}  </div>
         <div className={styles.clickicon}>
-            <ClickIcon fillColour="#ADB5BD" />
+            <ClickIcon fillColour="#5da418" />
         </div>
       </h3>
       {isOpen && <p className={styles.paragraph}>{content}</p>}
