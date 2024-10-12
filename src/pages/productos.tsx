@@ -85,7 +85,7 @@ const ProductsPage: React.FC<PageProps> = () => {
                               {product.title}
                             </h3>
                               <div className={styles.clickicon}>
-                                <ClickIcon fillColour="#ADB5BD" />
+                                <ClickIcon fillColour="#5da418" />
                               </div>
                           </button>
                         </div>
