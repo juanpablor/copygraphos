@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
               )}
               {data.tiktok !== "null" && (
                 <a
-                  href={data.instagram}
+                  href={data.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

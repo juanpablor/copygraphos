@@ -63,7 +63,7 @@ const LayoutPage: React.FC<LayoutProps> = ({ children }) => {
       {data.tiktok !== "null" && (
         <a
           className="w-12"
-          href={data.instagram}
+          href={data.tiktok}
           target="_blank"
           rel="noopener noreferrer"
         >
